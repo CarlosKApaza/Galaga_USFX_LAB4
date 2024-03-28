@@ -1,0 +1,7 @@
+C:\SIS457 Mis repositorios\Galaga_USFX_LAB2-master\Galaga_USFX_LAB2-master\Intermediate\Build\Win64\UE4Editor\DebugGame\Galaga_USFX_LAB2\Definitions.Galaga_USFX_LAB2.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\SIS457 Mis repositorios\Galaga_USFX_LAB2-master\Galaga_USFX_LAB2-master\Source\Galaga_USFX_LAB2/NaveEnemigaKamikaze.h
+C:\SIS457 Mis repositorios\Galaga_USFX_LAB2-master\Galaga_USFX_LAB2-master\Source\Galaga_USFX_LAB2\NaveEnemiga.h
+C:\SIS457 Mis repositorios\Galaga_USFX_LAB2-master\Galaga_USFX_LAB2-master\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_LAB2\NaveEnemiga.generated.h
+C:\SIS457 Mis repositorios\Galaga_USFX_LAB2-master\Galaga_USFX_LAB2-master\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX_LAB2\NaveEnemigaKamikaze.generated.h

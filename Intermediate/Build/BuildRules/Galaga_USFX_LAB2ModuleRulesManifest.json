@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\SIS457 Mis repositorios\\Galaga_USFX_LAB3-master\\Galaga_USFX_LAB2-master\\Source\\Galaga_USFX_LAB2\\Galaga_USFX_LAB2.Build.cs",
+		"C:\\SIS457 Mis repositorios\\Galaga_USFX_LAB3-master\\Galaga_USFX_LAB2-master\\Source\\Galaga_USFX_LAB2.Target.cs",
+		"C:\\SIS457 Mis repositorios\\Galaga_USFX_LAB3-master\\Galaga_USFX_LAB2-master\\Source\\Galaga_USFX_LAB2Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
