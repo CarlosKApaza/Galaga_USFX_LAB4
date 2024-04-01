@@ -51,15 +51,10 @@ public:
 	/*TArray<ANaveEnemigaReabastecimiento*> TANavesEnemigasReabastecimiento;
 	TArray<ANaveEnemigaNodriza*> TANavesEnemigasNodriza;
 	TArray<ANaveEnemigaKamikaze*> TANavesEnemigasKamikaze;*/
+	UPROPERTY()
+	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
+
+	void MostrarPosicionesNavesEnemigas();
 };
-
-
-//clase 20/03/24
-/*
-	TMap<ANaveEnemiga*, FVector> TMPosicionNavesEnemigas;
-
-
-
-*/
 
 

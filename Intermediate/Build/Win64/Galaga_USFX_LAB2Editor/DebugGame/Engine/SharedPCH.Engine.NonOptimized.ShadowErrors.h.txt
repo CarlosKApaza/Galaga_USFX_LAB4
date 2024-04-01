@@ -1,4 +1,4 @@
-C:/SIS457 Mis repositorios/Galaga_USFX_LAB2-master/Galaga_USFX_LAB2-master/Intermediate/Build/Win64/Galaga_USFX_LAB2Editor/DebugGame/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h
+C:/SIS457 Mis repositorios/Galaga_USFX_LAB4-master/Galaga_USFX_LAB3-master/Intermediate/Build/Win64/Galaga_USFX_LAB2Editor/DebugGame/Engine/SharedPCH.Engine.NonOptimized.ShadowErrors.h
 C:/Program Files/Epic Games/UE_4.27/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\CoreTypes.h
