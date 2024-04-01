@@ -30,7 +30,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 	{
 		//spawenado las naves de la clase NaveEnemigaCaza con un ciclo
 		for (int i = 0; i < 10; i++) { // Crear 10 naves de la clase NaveEnemigaCaza
-			ubicacionNaveActual.Y += 190.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
+			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaCaza* NaveEnemigaCazaActual = World->SpawnActor<ANaveEnemigaCaza>(ubicacionNaveActual, rotacionNave);
 			NaveEnemigaCazaActual->SetNombre("Nave Enemiga Caza" + FString::FromInt(i + 1));
 			TANavesEnemigasCaza.Add(NaveEnemigaCazaActual);
@@ -42,7 +42,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 		ubicacionNaveActual.Y = ubicacionNaveInicial.Y = -200.0f; // actualizo la creacion de la nave desde la ubicacionNaveActual
 
 		for (int j = 0; j < 10; j++) { // Crear 10 naves de la clase NaveEnemigaTransporte
-			ubicacionNaveActual.Y += 190.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
+			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaTransporte* NaveEnemigaTransporteActual = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionNaveActual, rotacionNave);
 			NaveEnemigaTransporteActual->SetNombre("Nave Enemiga Transporte" + FString::FromInt(j + 1));
 			TANavesEnemigasTransporte.Add(NaveEnemigaTransporteActual);
@@ -53,7 +53,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 		ubicacionNaveActual.Y = ubicacionNaveInicial.Y = -200.0f; // actualizo la creacion de la nave desde la ubicacionNaveActual
 
 		for (int k = 0; k < 10; k++) { // Crear 10 naves de la clase NaveEnemigaEspia
-			ubicacionNaveActual.Y += 190.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
+			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaEspia* NaveEnemigaEspiaActual = World->SpawnActor<ANaveEnemigaEspia>(ubicacionNaveActual, rotacionNave);
 			NaveEnemigaEspiaActual->SetNombre("Nave Enemiga Espia" + FString::FromInt(k + 1));
 			TANavesEnemigasEspia.Add(NaveEnemigaEspiaActual);
