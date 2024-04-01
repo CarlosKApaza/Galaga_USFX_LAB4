@@ -37,7 +37,7 @@ public:
 	virtual void Mover(float DeltaTime);
 	//virtual void Escapar(float velocidadY, float posicion);
 protected:
-	UPROPERTY(EditAnywhere, Category = "Nave")
+	UPROPERTY(EditAnywhere, Category = "Nave Transporte")
 	float VelocidadYTransporte;
 };
 

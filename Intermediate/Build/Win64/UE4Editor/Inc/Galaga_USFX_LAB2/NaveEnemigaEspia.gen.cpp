@@ -52,7 +52,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemigaEspia() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANaveEnemigaEspia_Statics::NewProp_VelocidadYEspia_MetaData[] = {
-		{ "Category", "Nave" },
+		{ "Category", "Nave Espia" },
 		{ "Comment", "// Velocidad en el eje Y\n" },
 		{ "ModuleRelativePath", "NaveEnemigaEspia.h" },
 		{ "ToolTip", "Velocidad en el eje Y" },
@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemigaEspia() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveEnemigaEspia, 3455944162);
+	IMPLEMENT_CLASS(ANaveEnemigaEspia, 2684501230);
 	template<> GALAGA_USFX_LAB2_API UClass* StaticClass<ANaveEnemigaEspia>()
 	{
 		return ANaveEnemigaEspia::StaticClass();

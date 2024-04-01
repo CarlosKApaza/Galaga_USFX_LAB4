@@ -28,6 +28,6 @@ public:
 
 protected:
 	// Velocidad en el eje Y
-	UPROPERTY(EditAnywhere, Category = "Nave")
+	UPROPERTY(EditAnywhere, Category = "Nave Caza")
 	float VelocidadYCaza;
 };
