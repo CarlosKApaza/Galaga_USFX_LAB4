@@ -53,12 +53,12 @@ void ANaveEnemigaTransporte::Mover(float DeltaTime)
 	float NuevaPosicionY = PosicionActual.Y + (VelocidadYTransporte * DeltaTime);
 
 	// Verificamos si la nave ha alcanzado el límite superior o inferior
-	if (NuevaPosicionY <= -1850.0f)
+	if (NuevaPosicionY <= -1900.0f)
 	{
 		// Cambiamos la dirección multiplicando por -1
 		VelocidadYTransporte *= -1.0f;
 	}
-	else if (NuevaPosicionY >= 1850.0f)
+	else if (NuevaPosicionY >= 1900.0f)
 	{
 		// Cambiamos la dirección multiplicando por -1
 		VelocidadYTransporte *= -1.0f;

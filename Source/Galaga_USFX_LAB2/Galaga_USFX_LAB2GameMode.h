@@ -44,17 +44,21 @@ protected:
 //	ANaveEnemigaKamikaze* NaveEnemigaKamikaze02;
 
 public:
+	// Contenedores avanzados TArrays para almacenar las naves enemigas
 	TArray<ANaveEnemiga*> TANavesEnemigas;
 	TArray<ANaveEnemigaCaza*> TANavesEnemigasCaza;
 	TArray<ANaveEnemigaTransporte*> TANavesEnemigasTransporte;
 	TArray<ANaveEnemigaEspia*> TANavesEnemigasEspia;
-	/*TArray<ANaveEnemigaReabastecimiento*> TANavesEnemigasReabastecimiento;
-	TArray<ANaveEnemigaNodriza*> TANavesEnemigasNodriza;
-	TArray<ANaveEnemigaKamikaze*> TANavesEnemigasKamikaze;*/
+
+	// Contenedor avanzado TMap para almacenar las posiciones de las naves enemigas
 	UPROPERTY()
 	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
 
-	void MostrarPosicionesNavesEnemigas();
+	void MostrarPosicionesNavesEnemigas(); // Función para mostrar las posiciones de las naves enemigas
+
+public:
+	// Timer para controlar la visualización de las posiciones de las naves enemigas
+	FTimerHandle FTHVisualizacionPosicionesNavesEnemigas;
 };
 
 

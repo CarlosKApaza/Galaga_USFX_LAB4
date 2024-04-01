@@ -59,9 +59,9 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_USFX_LAB2GameMode() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGalaga_USFX_LAB2GameMode_Statics::NewProp_TMPosicionesNavesEnemigas_Key_KeyProp = { "TMPosicionesNavesEnemigas_Key", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ANaveEnemiga_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGalaga_USFX_LAB2GameMode_Statics::NewProp_TMPosicionesNavesEnemigas_MetaData[] = {
-		{ "Comment", "/*TArray<ANaveEnemigaReabastecimiento*> TANavesEnemigasReabastecimiento;\n\x09TArray<ANaveEnemigaNodriza*> TANavesEnemigasNodriza;\n\x09TArray<ANaveEnemigaKamikaze*> TANavesEnemigasKamikaze;*/" },
+		{ "Comment", "// Contenedor avanzado TMap para almacenar las posiciones de las naves enemigas\n" },
 		{ "ModuleRelativePath", "Galaga_USFX_LAB2GameMode.h" },
-		{ "ToolTip", "TArray<ANaveEnemigaReabastecimiento*> TANavesEnemigasReabastecimiento;\n       TArray<ANaveEnemigaNodriza*> TANavesEnemigasNodriza;\n       TArray<ANaveEnemigaKamikaze*> TANavesEnemigasKamikaze;" },
+		{ "ToolTip", "Contenedor avanzado TMap para almacenar las posiciones de las naves enemigas" },
 	};
 #endif
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_AGalaga_USFX_LAB2GameMode_Statics::NewProp_TMPosicionesNavesEnemigas = { "TMPosicionesNavesEnemigas", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGalaga_USFX_LAB2GameMode, TMPosicionesNavesEnemigas), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_AGalaga_USFX_LAB2GameMode_Statics::NewProp_TMPosicionesNavesEnemigas_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGalaga_USFX_LAB2GameMode_Statics::NewProp_TMPosicionesNavesEnemigas_MetaData)) };
@@ -97,7 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeGalaga_USFX_LAB2GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGalaga_USFX_LAB2GameMode, 3177032975);
+	IMPLEMENT_CLASS(AGalaga_USFX_LAB2GameMode, 1770710822);
 	template<> GALAGA_USFX_LAB2_API UClass* StaticClass<AGalaga_USFX_LAB2GameMode>()
 	{
 		return AGalaga_USFX_LAB2GameMode::StaticClass();

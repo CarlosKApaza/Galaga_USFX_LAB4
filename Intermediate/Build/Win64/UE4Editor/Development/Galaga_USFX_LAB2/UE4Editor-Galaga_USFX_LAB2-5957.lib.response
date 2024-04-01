@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Galaga_USFX_LAB2-5957.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\Galaga_USFX_LAB2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2GameMode.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2Pawn.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2Projectile.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemiga.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaCaza.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaEspia.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaKamikaze.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaNodriza.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaReabastecimiento.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaTransporte.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2.init.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2GameMode.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2Pawn.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Galaga_USFX_LAB2Projectile.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemiga.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaCaza.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaEspia.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaKamikaze.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaNodriza.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaReabastecimiento.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\NaveEnemigaTransporte.gen.cpp.obj"
+"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\Default.rc2.res"
+/OUT:"C:\SIS457 Mis repositorios\Galaga_USFX_LAB4-master\Galaga_USFX_LAB3-master\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX_LAB2\UE4Editor-Galaga_USFX_LAB2-5957.lib"
