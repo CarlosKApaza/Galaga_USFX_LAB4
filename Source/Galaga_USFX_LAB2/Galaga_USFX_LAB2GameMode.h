@@ -56,13 +56,12 @@ public:
 	UPROPERTY()
 	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
 
-
-	void MostrarPosicionesNavesEnemigas(); // Función para mostrar las posiciones de las naves enemigas
+	
 	void EliminarEnemigosAleatoriamente(); // Función para eliminar enemigos aleatoriamente
 	void CrearEnemigosAleatoriamente(); // Función para crear enemigos aleatoriamente
 	void EjecutarAcciones(); // Función para ejecutar todas las acciones
 	void StopGameActions(); // Función para detener todas las acciones
-	
+	void MostrarPosicionesNavesEnemigas(); // Función para mostrar las posiciones de las naves enemigas
 
 public:
 	// Timer para controlar la visualización de las posiciones de las naves enemigas

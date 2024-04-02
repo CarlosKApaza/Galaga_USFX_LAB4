@@ -86,12 +86,6 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 	}
 }
 
-void AGalaga_USFX_LAB2GameMode::MostrarPosicionesNavesEnemigas()
-{
-
-}
-
-
 void AGalaga_USFX_LAB2GameMode::EliminarEnemigosAleatoriamente()
 {
 	// Verificar si hay al menos dos enemigos para eliminar
@@ -165,6 +159,10 @@ void AGalaga_USFX_LAB2GameMode::StopGameActions()
 
 }
 
+void AGalaga_USFX_LAB2GameMode::MostrarPosicionesNavesEnemigas()
+{
+
+}
 
 //void AGalaga_USFX_LAB2GameMode::MostrarPosicionesNavesEnemigas()
 //{/*
