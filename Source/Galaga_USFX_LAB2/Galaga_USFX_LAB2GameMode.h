@@ -50,16 +50,17 @@ public:
 	TArray<ANaveEnemigaTransporte*> TANavesEnemigasTransporte;
 	TArray<ANaveEnemigaEspia*> TANavesEnemigasEspia;
 
-	//TArray<FVector> PosicionesNavesEliminadas; // Contenedor avanzado TArray para almacenar las posiciones de las naves eliminadas
+	// Contenedor avanzado TArray para almacenar las posiciones de las naves eliminadas
+	//TArray<FVector> PosicionesNavesEliminadas; 
 	
 	// Contenedor avanzado TMap para almacenar las posiciones de las naves enemigas
 	UPROPERTY()
-	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas;
+	TMap<ANaveEnemiga*, FVector> TMPosicionesNavesEnemigas; // TMap para almacenar los obejtos y las posiciones de las naves enemigas
 
 	
 	void EliminarEnemigosAleatoriamente(); // Función para eliminar enemigos aleatoriamente
 	void CrearEnemigosAleatoriamente(); // Función para crear enemigos aleatoriamente
-	void EjecutarAcciones(); // Función para ejecutar todas las acciones
+	//void EjecutarAcciones(); // Función para ejecutar todas las acciones
 	void StopGameActions(); // Función para detener todas las acciones
 	void MostrarPosicionesNavesEnemigas(); // Función para mostrar las posiciones de las naves enemigas
 
