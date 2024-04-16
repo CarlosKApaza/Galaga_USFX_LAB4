@@ -12,7 +12,7 @@ ANaveEnemigaCaza::ANaveEnemigaCaza()
 {
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
-	VelocidadYCaza = -250.0f;
+	VelocidadYCaza = -400.0f;
 }
 
 void ANaveEnemigaCaza::Tick(float DeltaTime)

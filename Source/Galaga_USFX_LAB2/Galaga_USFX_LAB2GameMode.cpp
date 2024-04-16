@@ -30,7 +30,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 	if (World != nullptr)
 	{
 		//spawenado las naves de la clase NaveEnemigaCaza con un ciclo
-		for (int i = 0; i < 7; i++) { // Crear 10 naves de la clase NaveEnemigaCaza
+		for (int i = 0; i < 5; i++) { // Crear 10 naves de la clase NaveEnemigaCaza
 			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaCaza* NaveEnemigaCazaActual = World->SpawnActor<ANaveEnemigaCaza>(ubicacionNaveActual, rotacionNave);
 			//NaveEnemigaCazaActual->SetNombre("Nave Enemiga Caza" + FString::FromInt(i + 1));
@@ -42,7 +42,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 		ubicacionNaveActual.X = ubicacionNaveInicial.X = -70.0f; // crear un fila por el medio
 		ubicacionNaveActual.Y = ubicacionNaveInicial.Y = -200.0f; // actualizo la creacion de la nave desde la ubicacionNaveActual
 
-		for (int j = 0; j < 7; j++) { // Crear 10 naves de la clase NaveEnemigaTransporte
+		for (int j = 0; j < 5; j++) { // Crear 10 naves de la clase NaveEnemigaTransporte
 			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaTransporte* NaveEnemigaTransporteActual = World->SpawnActor<ANaveEnemigaTransporte>(ubicacionNaveActual, rotacionNave);
 			//NaveEnemigaTransporteActual->SetNombre("Nave Enemiga Transporte" + FString::FromInt(j + 1));
@@ -53,7 +53,7 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 		ubicacionNaveActual.X = ubicacionNaveInicial.X = 270.0f; // crear un fila más arriba
 		ubicacionNaveActual.Y = ubicacionNaveInicial.Y = -200.0f; // actualizo la creacion de la nave desde la ubicacionNaveActual
 
-		for (int k = 0; k < 7; k++) { // Crear 10 naves de la clase NaveEnemigaEspia
+		for (int k = 0; k < 5; k++) { // Crear 10 naves de la clase NaveEnemigaEspia
 			ubicacionNaveActual.Y += 180.0f; // Sumar 190 unidades a la coordenada Y en cada iteración (los espacios por naves)
 			ANaveEnemigaEspia* NaveEnemigaEspiaActual = World->SpawnActor<ANaveEnemigaEspia>(ubicacionNaveActual, rotacionNave);
 			//NaveEnemigaEspiaActual->SetNombre("Nave Enemiga Espia" + FString::FromInt(k + 1));
@@ -65,10 +65,10 @@ void AGalaga_USFX_LAB2GameMode::BeginPlay()
 		/*GetWorldTimerManager().SetTimer(FTHVisualizacionPosicionesNavesEnemigas, this, &AGalaga_USFX_LAB2GameMode::MostrarPosicionesNavesEnemigas, 1.0f, true);*/
 
 		// Temporizador para eliminar enemigos aleatorios cada 10 segundos
-		GetWorldTimerManager().SetTimer(FTHEliminarEnemigosAleatorios, this, &AGalaga_USFX_LAB2GameMode::EliminarEnemigosAleatoriamente, 10.0f, true, 10.0f);
+		GetWorldTimerManager().SetTimer(FTHEliminarEnemigosAleatorios, this, &AGalaga_USFX_LAB2GameMode::EliminarEnemigosAleatoriamente, 5.0f, true, 5.0f);
 
 		// Temporizador para crear enemigos aleatorios después de 10 segundo
-		GetWorldTimerManager().SetTimer(FTHCrearEnemigosAleatorios, this, &AGalaga_USFX_LAB2GameMode::CrearEnemigosAleatoriamente, 15.0f, true, 15.0f);
+		GetWorldTimerManager().SetTimer(FTHCrearEnemigosAleatorios, this, &AGalaga_USFX_LAB2GameMode::CrearEnemigosAleatoriamente, 5.0f, true, 5.0f);
 
 		// Configurar temporizador para detener todas las acciones después de 40 segundos
 		GetWorldTimerManager().SetTimer(FTHEndGameActions, this, &AGalaga_USFX_LAB2GameMode::StopGameActions, 40.0f, false);
@@ -110,16 +110,16 @@ void AGalaga_USFX_LAB2GameMode::CrearEnemigosAleatoriamente()
 	ClasesNavesEnemigas.Add(ANaveEnemigaEspia::StaticClass());
 
 	// Espacio deseado entre las naves en el eje Y
-	float EspacioEntreNavesY = 180.0f;
+	float EspacioEntreNavesY = 100.0f;
 
 	// Posición Y inicial
-	float PosicionY = -100.0f;
+	float PosicionY = -50.0f;
 
 	// Incremento en la posición Y para cada fila
 	float IncrementoY = EspacioEntreNavesY * ClasesNavesEnemigas.Num();
 
 	// Crear tres nuevas naves enemigas aleatoriamente
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 6; i++)
 	{
 		// Obtener una posición aleatoria desde TMPosicionesNavesEnemigas
 		int32 RandomIndex = FMath::RandRange(0, TMPosicionesNavesEnemigas.Num() - 1);
@@ -149,15 +149,6 @@ void AGalaga_USFX_LAB2GameMode::CrearEnemigosAleatoriamente()
 		}
 	}
 }
-
-//void AGalaga_USFX_LAB2GameMode::EjecutarAcciones()
-//{
-//	//MostrarPosicionesNavesEnemigas();
-//	EliminarEnemigosAleatoriamente();
-//	CrearEnemigosAleatoriamente();
-//	//CrearEnemigosAleatoriamente();
-//	//CrearEnemigosAleatoriamente();
-//}
 
 void AGalaga_USFX_LAB2GameMode::StopGameActions()
 {

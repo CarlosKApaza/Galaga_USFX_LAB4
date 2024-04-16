@@ -60,7 +60,6 @@ public:
 	
 	void EliminarEnemigosAleatoriamente(); // Función para eliminar enemigos aleatoriamente
 	void CrearEnemigosAleatoriamente(); // Función para crear enemigos aleatoriamente
-	//void EjecutarAcciones(); // Función para ejecutar todas las acciones
 	void StopGameActions(); // Función para detener todas las acciones
 	void MostrarPosicionesNavesEnemigas(); // Función para mostrar las posiciones de las naves enemigas
 
@@ -70,8 +69,6 @@ public:
 	FTimerHandle FTHEliminarEnemigosAleatorios; // Timer para eliminar enemigos aleatorios
 	FTimerHandle FTHCrearEnemigosAleatorios; // Timer para crear enemigos aleatorios
 	FTimerHandle FTHEndGameActions; // Timer para detener todas las acciones
-
-	//FTimerHandle FTHEjecutarAcciones; // Timer para ejecutar todas las acciones
 	
 };
 

@@ -12,7 +12,7 @@ ANaveEnemigaEspia::ANaveEnemigaEspia()
 {
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Wedge_B.Shape_Wedge_B'"));
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
-	VelocidadYEspia = -250.0f;
+	VelocidadYEspia = -400.0f;
 }
 
 void ANaveEnemigaEspia::Tick(float DeltaTime)

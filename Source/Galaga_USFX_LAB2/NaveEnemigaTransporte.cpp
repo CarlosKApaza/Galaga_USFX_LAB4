@@ -12,7 +12,7 @@ ANaveEnemigaTransporte::ANaveEnemigaTransporte()
 {	
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> malla(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder'"));
 	mallaNaveEnemiga->SetStaticMesh(malla.Object);
-    VelocidadYTransporte = -250.0f;
+    VelocidadYTransporte = -400.0f;
 }
 
 void ANaveEnemigaTransporte::Tick(float DeltaTime)
